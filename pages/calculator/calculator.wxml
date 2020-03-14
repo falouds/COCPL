@@ -1,0 +1,33 @@
+<view class='column align-center'>
+  <view class='border'>
+    <textarea class='textarea-class' placeholder='请输入算式'></textarea>
+  </view>
+  <view class='crosswise border'>
+      <view class='column grey'>
+        <view><button class='btn grey'>1</button></view>
+        <view><button class='btn grey'>4</button></view>
+        <view><button class='btn grey'>7</button></view>
+        <view><button class='btn grey'>.</button></view>
+      </view>
+      <view class='column grey'>
+        <view><button class='btn grey'>2</button></view>
+        <view><button class='btn grey'>5</button></view>
+        <view><button class='btn grey'>8</button></view>
+        <view><button class='btn grey'>0</button></view>
+      </view>
+      <view class='column grey'>
+        <view><button class='btn grey'>3</button></view>
+        <view><button class='btn grey'>6</button></view>
+        <view><button class='btn grey'>9</button></view>
+        <view><button class='btn grey'>del</button></view>
+      </view>
+      <view class='column blue'>
+        <view><button class='btn blue'>=</button></view>
+        <view><button class='btn blue'>+</button></view>
+        <view><button class='btn blue'>-</button></view>
+        <view><button class='btn blue'>*</button></view>
+        <view><button class='btn blue'>/</button></view>
+      </view>
+  </view>
+  
+</view>

@@ -1,0 +1,63 @@
+/* pages/calculator/calculator.wxss */
+/**index.wxss**/
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  font-size: 30rpx;
+}
+.crosswise{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  font-size: 30rpx;
+}
+
+.border{
+  padding:30rpx;
+}
+.item-border{
+  padding: 10rpx;
+}
+.align-center{
+  align-items:center;
+}
+
+slider{
+  width: 300rpx;
+}
+text.border{
+  padding-top: 0rpx;
+  padding-bottom: 15rpx; 
+}
+.imageStyle{
+  width: 350rpx;
+}
+.btn{
+  line-height: 150rpx;
+  font-size: 80rpx;
+  width: 170rpx;
+  height: 150rpx;
+}
+.btn::after{
+  border: none;
+}
+.grey{
+  background-color: ghostwhite;
+}
+.blue{
+  background-color: gainsboro;
+}
+input.aside {
+  border-style: solid dotted dashed double;
+}
+input.year{
+  height: 25rpx;
+  width: 150rpx;
+}
+.textarea-class{
+  width:700rpx;
+  height: 300rpx;
+  border-bottom-style:groove;
+  border-color:gainsboro;
+}

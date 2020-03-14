@@ -1,0 +1,78 @@
+<!--index.wxml-->
+
+<view class="crosswise border">
+  <view class="column">
+    <view class='crosswise'><text>力量(STR)：</text><text>{{STR}}</text></view>
+    <view class='crosswise'><text>体质(CON)：</text><text>{{CON}}</text></view>
+    <view class='crosswise'><text>体型(SIZ)：</text><text>{{SIZ}}</text></view>
+    <view class='crosswise'><text>敏捷(DEX)：</text><text>{{DEX}}</text></view>
+    <view class='crosswise'><text>外貌(APP)：</text><text>{{APP}}</text></view>
+    <view class='crosswise'><text>智力(INT)：</text><text>{{INT}}</text></view>
+    <view class='crosswise'><text>意志(POW)：</text><text>{{POW}}</text></view>
+    <view class='crosswise'><text>教育(EDU)：</text><text>{{EDU}}</text></view>
+    <view class='crosswise'><text>幸运(LUC)：</text><text>{{LUC}}</text></view>
+  </view>
+  <view>
+    <image src="{{imagePath}}" mode="widthFix" class="imageStyle"></image>
+  </view>
+</view>
+<view class='crosswise align-center'> 
+  <text>年龄：</text><slider min='15' max='90'bindchange='changeAge' show-value/>
+</view>
+<view class="crosswise border">
+  <view class='column'>
+    <view class='crosswise align-center item- border'>姓名：<input type='text' class='aside year'/></view>
+    <view class='crosswise item-border'><text>行动力（MOV）：</text><text>{{MOV}}</text></view>
+  </view>
+  <view class='column'>
+    <view class='crosswise item-border'><text>生命值（HP）：</text><text>{{hp}}</text></view>
+    <view class='crosswise item-border'><text>伤害加深   ：</text><text>{{damage}}</text></view>
+  </view>
+</view>
+<view class="crosswise border align-center">
+  <view class='column'>
+    <text class='border'>专业技能点：{{major}}</text>
+    <text class='border'>兴趣技能点：{{interest}}</text>
+  </view>
+  <view class='column'>
+    <view><button bindtap='make'>随机制作人物卡</button></view>
+    <view><button bindtap='confirm'>确定</button></view>
+  </view>
+</view>
+<view class="crosswise border align-center">
+  <text>职业</text><input type='text' class='aside'/>
+</view>
+<view class="crosswise border align-center">
+  <view class='colomn'>
+    <view>会计:<text>{{accountant}}</text></view>
+    <view>表演<text>{{}}</text></view>
+    <view>动物驯养<text>{{}}</text></view>
+    <view>人类学<text>{{}}</text></view>
+    <view>估价<text>{{}}</text></view>
+    <view>考古学<text>{{}}</text></view>
+    <view>艺术<text>{{}}</text></view>
+    <view>炮术<text>{{}}</text></view>
+    <view>天文学<text>{{}}</text></view>
+    <view>斧头<text>{{}}</text></view>
+    <view>生物学<text>{{}}</text></view>
+    <view>植物学<text>{{}}</text></view>
+  </view>
+  <view class='colomn'>
+    <view>弓术<text>{{}}</text></view>
+    <view>斗殴<text>{{}}</text></view>
+    <view>电锯<text>{{}}</text></view>
+    <view>魅惑<text>{{}}</text></view>
+    <view>化学<text>{{}}</text></view>
+    <view>攀爬<text>{{}}</text></view>
+    <view>计算机<text>{{}}</text></view>
+    <view>信用评级<text>{{}}</text></view>
+    <view>密码学<text>{{}}</text></view>
+    <view>克苏鲁神话<text>{{}}</text></view>
+    <view>爆破<text>{{}}</text></view>
+    <view>乔装<text>{{}}</text></view>
+  </view>
+</view>
+<view>
+  <input type='text' class='aside'>description for your pl</input>
+</view>
+

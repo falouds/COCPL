@@ -1,0 +1,49 @@
+/**index.wxss**/
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  font-size: 30rpx;
+}
+.crosswise{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  font-size: 30rpx;
+}
+
+.border{
+  padding:20rpx;
+}
+.item-border{
+  padding: 10rpx;
+}
+.align-center{
+  align-items:center;
+}
+
+slider{
+  width: 300rpx;
+}
+text.border{
+  padding-top: 0rpx;
+  padding-bottom: 15rpx; 
+}
+.imageStyle{
+  width: 350rpx;
+}
+button{
+  padding-top: 10rpx;
+  padding-bottom: 10rpx; 
+  line-height: 30rpx;
+  font-size: 30rpx;
+  width: 300rpx;
+  height: 50rpx;
+}
+input.aside {
+  border-style: solid dotted dashed double;
+}
+input.year{
+  height: 25rpx;
+  width: 150rpx;
+}
